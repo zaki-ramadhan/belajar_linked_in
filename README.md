@@ -1,12 +1,59 @@
-# React + Vite
+# 🎓 Mastering LinkedIn for Career Growth — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Made with Vite](https://img.shields.io/badge/vite-frontend-blue?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-18.0-blue?logo=react)](https://reactjs.org/)
+[![CSS3](https://img.shields.io/badge/style-CSS3-blue?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/code-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Currently, two official plugins are available:
+A simple, responsive, and clean landing page built as part of a **Web Developer Case Assessment**.  
+This project promotes the online class **“Mastering LinkedIn for Career Growth”**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Output
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Hero Section:** Title, subtitle, CTA button (“Daftar Sekarang”).
+- **About Section:** Short description (100–150 words).
+- **Key Benefits:** 3–4 highlights of joining the class.
+- **Testimonial Placeholder:** for alumni feedback.
+- **Final CTA Button:** at the bottom.
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML, CSS, JavaScript  
+- React + Vite  
+- Deployment: Netlify / Vercel
+
+---
+
+## 📖 How to Run
+
+```bash
+# clone repo
+git clone https://github.com/zaki-ramadhan/belajar_linked_in.git
+
+# enter project folder
+cd belajar_linked_in
+
+# install dependencies
+npm install
+
+# run dev server
+npm run dev
+```
+
+---
+
+## 🌍 Live Demo
+
+🔗 [View Demo Here](https://your-demo-link.netlify.app)
+
+---
+
+## 📑 Documentation
+
+- **Tools/Tech Used:** HTML, CSS, JS, React (Vite), Netlify/Vercel  
+- **How to Run:** see instructions above  
+- **Live Demo:** link provided above  
