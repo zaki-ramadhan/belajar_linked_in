@@ -1,9 +1,19 @@
+import Home from './sections/Home.jsx';
+import About from './sections/About.jsx';
+import Testimonials from './sections/Testimonials.jsx';
+import Benefits from './sections/Benefits.jsx';
+import Navbar from './components/Navbar';
+
 const App = () => {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <Navbar/>
+    <main>
+      <Home />
+      <About />
+      <Benefits />
+      <Testimonials />
+    </main>
     </>
   )
 }
