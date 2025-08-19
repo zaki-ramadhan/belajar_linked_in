@@ -1,6 +1,6 @@
 const Benefits = () => {
   return (
-    <section>
+    <section id="benefits">
       Benefits
     </section>
   )

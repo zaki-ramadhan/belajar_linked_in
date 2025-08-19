@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <section>
+    <section id="call-to-action">
       CallToAction
     </section>
   )
