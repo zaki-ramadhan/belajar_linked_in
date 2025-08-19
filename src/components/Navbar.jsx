@@ -6,7 +6,7 @@ import logoBelajarLinkedIn from '@image/logo belajarLinkedIn - 2.jpg'
 const NavLink = ({ onClick, text = "Link", href = "#" }) => {
     return (
         <li onClick={onClick} className="group/item hover:font-semibold group-hover/ul:opacity-50 hover:opacity-100 active:font-semibold duration-200">
-            <a href={href} className="inline-flex items-center">
+            <a href={href} className="inline-flex w-full items-center">
                 {text}
                 <ArrowUpRight className="ml-2 hidden group-hover/item:inline" />
             </a>
