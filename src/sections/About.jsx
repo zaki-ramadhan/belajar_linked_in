@@ -17,7 +17,7 @@ const About = () => {
   return (
     <section id="about-us" className="relative container bg-background">
       <h1 className="title text-5xl font-medium text-primary">
-        <span className="text-gray-400"><span className="text-4xl block mb-2">💡</span>Apa itu </span>Mastering <span className="relative bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent font-semibold ">LinkedIn</span> for Career Growth?
+        <span className="text-gray-400"><span className="text-5xl block mb-2">💡</span>Apa itu </span>Mastering <span className="relative bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent font-semibold ">LinkedIn</span> for Career Growth?
       </h1>
 
       {/* pictures stack */}

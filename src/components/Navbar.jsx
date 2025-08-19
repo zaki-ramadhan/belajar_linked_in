@@ -3,9 +3,9 @@ import { ArrowUpRight, CircleX, Menu } from "lucide-react"
 
 import logoBelajarLinkedIn from '@image/logo belajarLinkedIn - 2.jpg'
 
-const NavbarLink = ({ text = "Link", href = "#" }) => {
+const NavbarLink = ({ onClick, text = "Link", href = "#" }) => {
     return (
-        <li className="group/item hover:font-semibold group-hover/ul:opacity-50 hover:opacity-100 active:font-semibold duration-200">
+        <li onClick={onClick} className="group/item hover:font-semibold group-hover/ul:opacity-50 hover:opacity-100 active:font-semibold duration-200">
             <a href={href} className="inline-flex items-center">
                 {text}
                 <ArrowUpRight className="ml-2 hidden group-hover/item:inline" />
@@ -34,7 +34,7 @@ const Navbar = () => {
             {/* mobile navigation */}
             <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-300 flex items-center justify-between">
                 <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22" />
-                <Menu onClick={() => setIsOpen(true)} className="size-8 text-gray-400 hover:text-primary"/>
+                <Menu onClick={() => setIsOpen(true)} className="size-8 text-gray-400 hover:text-primary" />
             </div>
 
             {/* open navigation */}
@@ -52,10 +52,10 @@ const Navbar = () => {
 
                     <nav className="px-5">
                         <ul className="group/ul flex flex-col justify-between gap-6 text-lg">
-                            <NavbarLink text="Home" />
-                            <NavbarLink text="About" href="#about" />
-                            <NavbarLink text="Benefits" href="#benefits" />
-                            <NavbarLink text="Testimonials" href="#testimonials" />
+                            <NavbarLink onClick={() => setIsOpen(false)} text="Home" />
+                            <NavbarLink onClick={() => setIsOpen(false)} text="About" href="#about" />
+                            <NavbarLink onClick={() => setIsOpen(false)} text="Benefits" href="#benefits" />
+                            <NavbarLink onClick={() => setIsOpen(false)} text="Testimonials" href="#testimonials" />
                         </ul>
                     </nav>
                     <span className="cta-btn"></span>
