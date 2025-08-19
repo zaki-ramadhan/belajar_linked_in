@@ -6,8 +6,15 @@
 
     --color-primary: #1a1a1a;
     --color-background: #f2f2f0;
+    /* --color-background: #f8f9f6; */
+}
+
+@layer base {
+    img {
+        @apply object-cover
+    }
 }
 
 @utility container {
-    @apply mx-auto
+    @apply mx-auto px-6
 }

@@ -30,7 +30,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div className="fixed top-0 left-0 right-0 bg-white">
+        <header className="fixed top-0 left-0 right-0 bg-white z-60">
             {/* mobile navigation */}
             <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-300 flex items-center justify-between">
                 <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22" />
@@ -39,7 +39,7 @@ const Navbar = () => {
 
             {/* open navigation */}
             {isOpen && (
-                <header ref={mobileHeaderRef} className="fixed top-0 left-0 right-0 pt-22 pb-16 shadow-2xl z-50 bg-white border-b border-gray-300">
+                <div ref={mobileHeaderRef} className="fixed top-0 left-0 right-0 pt-22 pb-16 shadow-2xl z-50 bg-white border-b border-gray-300">
                     <div className="bottom-line-decoration absolute bottom-0 left-0 right-0 px-6 py-2 text-sm bg-gradient-to-l from-blue-400 to-blue-700 text-white border-b-2">
                         Mastering LinkedIn for Career Growth
                     </div>
@@ -59,9 +59,9 @@ const Navbar = () => {
                         </ul>
                     </nav>
                     <span className="cta-btn"></span>
-                </header>)
+                </div>)
             }
-        </div>
+        </header>
     )
 }
 
