@@ -11,7 +11,7 @@ const Hero = () => {
 
       <h1 className="title mt-5 text-6xl font-bold text-primary">Mastering <span className="bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent">LinkedIn</span> for Career Growth</h1>
       <h2 className="text-xl leading-7 mt-4">
-        🚀 Belajar Linkedin dari 0 sampai keterima kerja/magang | End-to-end Linkedin Clinic.
+        Belajar Linkedin dari 0 sampai keterima kerja/magang | End-to-end Linkedin Clinic.
       </h2>
 
       <Button text="Daftar Sekarang!" />
