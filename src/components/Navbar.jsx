@@ -3,7 +3,7 @@ import { ArrowUpRight, CircleX, Menu } from "lucide-react"
 
 import logoBelajarLinkedIn from '@image/logo belajarLinkedIn - 2.jpg'
 
-const NavbarLink = ({ onClick, text = "Link", href = "#" }) => {
+const NavLink = ({ onClick, text = "Link", href = "#" }) => {
     return (
         <li onClick={onClick} className="group/item hover:font-semibold group-hover/ul:opacity-50 hover:opacity-100 active:font-semibold duration-200">
             <a href={href} className="inline-flex items-center">
@@ -52,10 +52,11 @@ const Navbar = () => {
 
                     <nav className="px-5">
                         <ul className="group/ul flex flex-col justify-between gap-6 text-lg">
-                            <NavbarLink onClick={() => setIsOpen(false)} text="Home" />
-                            <NavbarLink onClick={() => setIsOpen(false)} text="About" href="#about" />
-                            <NavbarLink onClick={() => setIsOpen(false)} text="Benefits" href="#benefits" />
-                            <NavbarLink onClick={() => setIsOpen(false)} text="Testimonials" href="#testimonials" />
+                            <NavLink onClick={() => setIsOpen(false)} text="Home" />
+                            <NavLink onClick={() => setIsOpen(false)} text="About" href="#about" />
+                            <NavLink onClick={() => setIsOpen(false)} text="Benefits" href="#benefits" />
+                            <NavLink onClick={() => setIsOpen(false)} text="Testimonials" href="#testimonials" />
+                            <NavLink onClick={() => setIsOpen(false)} text="Daftar" href="#call-to-action" />
                         </ul>
                     </nav>
                     <span className="cta-btn"></span>

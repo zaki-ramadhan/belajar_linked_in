@@ -14,7 +14,7 @@ const Hero = () => {
         Belajar Linkedin dari 0 sampai keterima kerja/magang | End-to-end Linkedin Clinic.
       </h2>
 
-      <Button text="Daftar Sekarang!" />
+      <Button text="Daftar Sekarang!" className="mt-4 hover:shadow-blue-100 hover:scale-x-103"/>
 
       <div className="relative image-wrapper mt-14 size-88 overflow-hidden">
 
