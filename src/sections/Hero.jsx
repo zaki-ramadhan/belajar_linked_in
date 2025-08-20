@@ -11,7 +11,7 @@ const Hero = () => {
         <Label text="#1 Indonesia Linkedin Academy" />
 
         <h1 className="title mt-5 text-6xl md:text-8xl font-bold text-primary">Mastering <span className="bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent">LinkedIn</span> for Career Growth</h1>
-        <h2 className="text-xl md:text-3xl lg:text-2xl xl:text-xl leading-7 md:leading-normal mt-4">
+        <h2 className="text-xl md:text-4xl lg:text-3xl xl:text-2xl leading-7 md:leading-normal lg:leading-relaxed mt-4">
           Belajar Linkedin dari 0 sampai keterima kerja/magang | End-to-end Linkedin Clinic.
         </h2>
 

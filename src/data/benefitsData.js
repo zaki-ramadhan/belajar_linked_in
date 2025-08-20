@@ -7,25 +7,25 @@ export const benefits = [
   {
     id: 1,
     image: benefit1,
-    title: "Networking Opportunities",
+    title: "Peluang Networking",
     desc: "Bangun koneksi dengan profesional dari berbagai industri.",
   },
   {
     id: 2,
     image: benefit2,
-    title: "Personal Branding",
+    title: "Bangun Personal Branding",
     desc: "Tingkatkan citra dirimu dengan strategi branding yang tepat.",
   },
   {
     id: 3,
     image: benefit3,
-    title: "Professional Profile",
+    title: "Profil Profesional",
     desc: "Optimalkan profil LinkedIn agar lebih menarik recruiter.",
   },
   {
     id: 4,
     image: benefit4,
-    title: "Job Offer Success",
+    title: "Sukses Mendapat Tawaran Kerja",
     desc: "Perbesar peluangmu mendapatkan tawaran kerja terbaik.",
   },
 ];

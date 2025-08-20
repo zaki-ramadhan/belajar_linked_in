@@ -31,7 +31,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <header className="fixed top-0 md:px-6 left-0 right-0 bg-white z-60">
+        <header className="container fixed top-0 max-w-7xl py-0 md:px-6 left-0 right-0 bg-white z-60">
             {/* mobile navigation */}
             <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-300 flex items-center justify-between">
                 <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32" />
