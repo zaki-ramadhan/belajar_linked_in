@@ -11,7 +11,7 @@ const CallToAction = () => {
       <p className="text-lg md:text-3xl xl:text-2xl md:leading-relaxed text-center text-gray-300 mt-5 md:mt-7 lg:mt-8 z-20">
         Mulai langkah baru untuk membangun karier lebih percaya diri, terarah, dan penuh peluang.
       </p>
-      <Button text="Daftar Sekarang" className="mt-7 md:mt-9 lg:mt-12 px-16 md:px-20 xl:px-18 py-2 max-w-fit place-self-center z-20" />
+      <Button text="Daftar Sekarang" className="mt-7 md:mt-9 lg:mt-12 px-16 md:px-20 xl:px-18 py-3 max-w-fit place-self-center z-20" />
     </section>
   )
 }

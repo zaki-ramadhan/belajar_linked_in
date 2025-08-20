@@ -10,12 +10,12 @@ const Hero = () => {
       <main>
         <Label text="#1 Indonesia Linkedin Academy" />
 
-        <h1 className="title mt-5 text-6xl md:text-8xl font-bold text-primary">Mastering <span className="bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent">LinkedIn</span> for Career Growth</h1>
+        <h1 className="title mt-5 text-7xl md:text-8xl font-bold text-primary">Mastering <span className="bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent">LinkedIn</span> for Career Growth</h1>
         <h2 className="text-xl md:text-4xl lg:text-3xl xl:text-2xl leading-7 md:leading-normal lg:leading-relaxed mt-4">
           Belajar Linkedin dari 0 sampai keterima kerja/magang | End-to-end Linkedin Clinic.
         </h2>
 
-        <Button text="Daftar Sekarang" className="mt-4 md:mt-8 hover:shadow-blue-100 hover:scale-x-103" />
+        <Button text="Daftar Sekarang" className="mt-6 md:mt-8 hover:shadow-blue-100 hover:scale-x-103" />
       </main>
 
       <div className="relative image-wrapper mt-14 md:mt-28 size-full aspect-square overflow-hidden">

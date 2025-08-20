@@ -20,13 +20,13 @@ const Navbar = () => {
     }, [])
 
     return (
-        <header className="container fixed top-0 max-w-7xl py-0 px-0 md:px-6 left-0 right-0 bg-white z-60">
+        <header className="container fixed top-0 max-w-7xl py-0 px-0 md:px-6 bg-white/90 backdrop-blur-xs z-60">
             {/* mobile navigation */}
-            <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-300 flex items-center justify-between">
+            <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-200/80 flex items-center justify-between">
                 <a href="#">
                     <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32" />
                 </a>
-                <Menu onClick={() => setIsOpen(true)} className="size-8 md:size-12 text-gray-400 hover:text-primary lg:hidden" />
+                <Menu onClick={() => setIsOpen(true)} className="size-8 md:size-12 text-gray-400 hover:text-primary active:text-primary lg:hidden" />
 
                 {/* navlink for lg to xl */}
                 <nav className='hidden lg:block'>
@@ -53,7 +53,7 @@ const Navbar = () => {
                     </a>
 
                     {/* tombol close */}
-                    <CircleX onClick={() => setIsOpen(false)} className="size-7 md:size-10 fixed top-5 right-4 md:right-10 text-gray-400 hover:text-gray-600 active:text-gray-600" />
+                    <CircleX onClick={() => setIsOpen(false)} className="size-7 md:size-10 fixed top-5 right-4 md:right-10 text-gray-400 hover:text-primary active:text-primary" />
 
                     <nav>
                         <ul className="group/ul flex flex-col justify-between gap-6 md:gap-8 text-lg">

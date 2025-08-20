@@ -8,7 +8,7 @@ const TestimonialsCard = () => {
                     key={item.id}
                     className="testimonial-card md:mt-16 xl:mt-6 flex gap-5 md:gap-10"
                 >
-                    <img src={item.pfp} alt={`Profile ${item.name}`} className="relative size-30 md:size-48 lg:size-46 rounded-2xl md:rounded-4xl border-4 border-white shadow-xl rotate-5 duration-150 hover:rotate-0" />
+                    <img src={item.pfp} alt={`Profile ${item.name}`} className="relative size-30 md:size-48 lg:size-46 rounded-2xl md:rounded-4xl border-4 border-white shadow-xl rotate-5 duration-150 hover:rotate-0 active:rotate-0 " />
 
                     <div className="texts-wrp flex flex-col gap-1 md:gap-4">
                         <div className="name-status-wrp w-full flex justify-between">
