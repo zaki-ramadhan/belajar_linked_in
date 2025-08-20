@@ -1,59 +1,59 @@
-# 🎓 Mastering LinkedIn for Career Growth — Landing Page
+# Belajar LinkedIn – Mastering LinkedIn for Career Growth
 
-[![Made with Vite](https://img.shields.io/badge/vite-frontend-blue?logo=vite)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/react-18.0-blue?logo=react)](https://reactjs.org/)
-[![CSS3](https://img.shields.io/badge/style-CSS3-blue?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/code-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-A simple, responsive, and clean landing page built as part of a **Web Developer Case Assessment**.  
-This project promotes the online class **“Mastering LinkedIn for Career Growth”**.
+Landing page sederhana untuk mempromosikan kelas online **“Mastering LinkedIn for Career Growth”**, dirancang dengan React dan TailwindCSS agar responsif, modern, dan mudah dikembangkan.
 
 ---
 
-## 🚀 Output
+## 🚀 Tech Stack
 
-- **Hero Section:** Title, subtitle, CTA button (“Daftar Sekarang”).
-- **About Section:** Short description (100–150 words).
-- **Key Benefits:** 3–4 highlights of joining the class.
-- **Testimonial Placeholder:** for alumni feedback.
-- **Final CTA Button:** at the bottom.
-
----
-
-## 🛠️ Tech Stack
-
-- HTML, CSS, JavaScript  
-- React + Vite  
-- Deployment: Netlify / Vercel
+- **React 18** – library utama untuk membangun UI interaktif.
+- **Vite** – bundler modern untuk pengembangan cepat.
+- **TailwindCSS** – styling berbasis utility-first.
+- **Lucide React** – ikon modern berbasis SVG.
+- **Framer Motion** – animasi interaktif dan transisi halus.
+- **AOS (Animate on Scroll)** – efek animasi berbasis scroll.
+- **Vercel** – platform deployment untuk hosting project.
 
 ---
 
-## 📖 How to Run
+## 📂 Fitur Utama
 
-```bash
-# clone repo
-git clone https://github.com/zaki-ramadhan/belajar_linked_in.git
-
-# enter project folder
-cd belajar_linked_in
-
-# install dependencies
-npm install
-
-# run dev server
-npm run dev
-```
+- **Hero Section** dengan judul kelas dan tombol CTA.
+- **About Section** yang menjelaskan gambaran kelas.
+- **Key Benefits** berupa 4 poin manfaat utama.
+- **Testimonials Section** dengan testimoni alumni (dummy data).
+- **Call to Action** akhir untuk mendorong pendaftaran.
+- Responsif untuk tampilan **mobile (sm)** hingga **desktop (xl/2xl)**.
 
 ---
 
-## 🌍 Live Demo
+## ⚙️ Cara Menjalankan Project
 
-🔗 [View Demo Here](https://your-demo-link.netlify.app)
+1. Clone repositori:
+
+   ```bash
+   git clone https://github.com/zaki-ramadhan/belajar_linked_in.git
+   cd belajar_linked_in
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Jalankan server development:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Buka di browser:  
+   [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 📑 Documentation
+## 🌐 Live Demo
 
-- **Tools/Tech Used:** HTML, CSS, JS, React (Vite), Netlify/Vercel  
-- **How to Run:** see instructions above  
-- **Live Demo:** link provided above  
+Proyek ini sudah dideploy di Vercel dan bisa diakses di:  
+👉 [Demo Aplikasi](https://belajar-linked-in.vercel.app) *(ganti dengan link Vercel asli jika sudah di-deploy)*
