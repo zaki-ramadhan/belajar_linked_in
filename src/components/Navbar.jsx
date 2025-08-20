@@ -1,19 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { CircleX, Menu } from "lucide-react"
-
-import logoBelajarLinkedIn from '@image/logo belajarLinkedIn - 2.jpg'
 import NavLink from './NavLink';
 
-// const NavLink = ({ onClick, text = "Link", href = "#" }) => {
-//     return (
-//         <li onClick={onClick} className="group/item hover:font-semibold group-hover/ul:opacity-50 hover:opacity-100 active:font-semibold duration-200">
-//             <a href={href} className="inline-flex w-full items-center">
-//                 {text}
-//                 <ArrowUpRight className="ml-2 hidden group-hover/item:inline" />
-//             </a>
-//         </li>
-//     )
-// }
+import logoBelajarLinkedIn from '@image/logo belajarLinkedIn - 2.jpg'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -31,10 +20,12 @@ const Navbar = () => {
     }, [])
 
     return (
-        <header className="container fixed top-0 max-w-7xl py-0 md:px-6 left-0 right-0 bg-white z-60">
+        <header className="container fixed top-0 max-w-7xl py-0 px-0 md:px-6 left-0 right-0 bg-white z-60">
             {/* mobile navigation */}
             <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-300 flex items-center justify-between">
-                <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32" />
+                <a href="#">
+                    <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32" />
+                </a>
                 <Menu onClick={() => setIsOpen(true)} className="size-8 md:size-12 text-gray-400 hover:text-primary lg:hidden" />
 
                 {/* navlink for lg to xl */}
@@ -57,7 +48,9 @@ const Navbar = () => {
                     </div>
 
                     {/* logo */}
-                    <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32 fixed top-5 left-4 md:left-10" />
+                    <a href="#" onClick={() => setIsOpen(false)}>
+                        <img src={logoBelajarLinkedIn} alt="logo belajarLinkedIn" className="w-22 md:w-32 fixed top-5 left-4 md:left-10" />
+                    </a>
 
                     {/* tombol close */}
                     <CircleX onClick={() => setIsOpen(false)} className="size-7 md:size-10 fixed top-5 right-4 md:right-10 text-gray-400 hover:text-gray-600 active:text-gray-600" />
