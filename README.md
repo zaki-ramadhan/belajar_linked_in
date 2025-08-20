@@ -7,7 +7,7 @@
 ![Deployed on](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg)
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
 
-<a href="https://belajar-linked-in.vercel.app" target="_blank">
+<a href="https://belajar-linked-in-zaki.vercel.app" target="_blank">
   <img src="https://i.postimg.cc/MGg51YH5/preview-landing-page-belajar-Linked-In.png" alt="Preview Landing Page Belajar LinkedIn" width="100%">
 </a>
 
@@ -91,7 +91,7 @@ Lalu buka di browser:
 
 ## 🌐 Live Demo
 Proyek ini sudah dideploy di Vercel dan bisa diakses di:  
-👉 **https://belajar-linked-in.vercel.app**
+👉 **https://belajar-linked-in-zaki.vercel.app**
 
 ---
 
