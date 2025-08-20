@@ -7,12 +7,12 @@ const About = () => {
   const [isReadMore, setIsReadMore] = useState(false);
 
   return (
-    <section id="about-us" className="relative container bg-background">
-      <h1 className="title text-5xl md:text-8xl font-medium text-primary">
+    <section id="about" className="relative container bg-background">
+      <h1 className="title text-5xl md:text-8xl xl:text-7xl font-medium text-primary">
         <span className="text-gray-400">
-          <span className="block mb-2 md:mb-4 md:text-7xl">💡</span>Apa itu{" "}
+          <span className="block mb-2 md:mb-4 md:text-7xl xl:text-6xl">💡</span>Apa itu <br className="hidden lg:block"/>
         </span>
-        Mastering{" "}
+        Mastering {" "}
         <span className="relative bg-clip-text bg-gradient-to-br from-blue-500 to-blue-800 text-transparent font-semibold ">
           LinkedIn
         </span>{" "}
@@ -24,7 +24,7 @@ const About = () => {
 
       <div className="text-wrp relative">
         <p
-          className={`mt-10 text-xl text-justify md:text-3xl indent-5 leading-relaxed ${isReadMore ? "line-clamp-none pb-0" : "line-clamp-5 pb-18 md:pb-22"
+          className={`mt-10 lg:mt-26 text-xl text-justify md:text-3xl xl:text-2xl indent-5 xl:indent-12 leading-relaxed ${isReadMore ? "line-clamp-none pb-0" : "line-clamp-5 xl:line-clamp-4 pb-18 md:pb-22"
             }`}
         >
           Kelas online <strong>Mastering LinkedIn for Career Growth</strong> adalah
@@ -34,7 +34,7 @@ const About = () => {
             href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-700 font-semibold hover:underline hover:underline-offset-1"
+            className="text-blue-700 font-semibold hover:underline hover:underline-offset-2"
           >
             LinkedIn
           </a>{" "}
@@ -52,7 +52,7 @@ const About = () => {
         {!isReadMore ? (
           <button
             onClick={() => setIsReadMore(true)}
-            className="read-more-btn md:text-3xl flex justify-center items-center h-26 bg-gradient-to-t from-background from-60% to-background/0 text-blue-700 hover:text-blue-800 font-medium absolute bottom-0 left-0 right-0 z-20 cursor-pointer "
+            className="read-more-btn md:text-3xl lg:text-2xl xl:text-xl flex justify-center items-center h-26 lg:h-32 bg-gradient-to-t from-background from-60% to-background/0 text-blue-700 hover:text-blue-800 font-medium absolute bottom-0 left-0 right-0 z-20 cursor-pointer "
           >
             Baca Selengkapnya
             <ChevronDown className="ml-2 translate-y-0.5" />
@@ -60,7 +60,7 @@ const About = () => {
         ) : (
           <button
             onClick={() => setIsReadMore(false)}
-            className="read-less-btn md:text-3xl mt-4 md:mt-8 text-blue-700 hover:text-blue-800 font-medium inline-flex items-center"
+            className="read-less-btn md:text-3xl lg:text-2xl xl:text-xl mt-4 md:mt-8 text-blue-700 hover:text-blue-800 font-medium inline-flex items-center"
           >
             Baca Lebih Sedikit
             <ChevronDown className="ml-2 -scale-y-100" />

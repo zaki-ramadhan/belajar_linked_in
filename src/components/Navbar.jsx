@@ -39,12 +39,12 @@ const Navbar = () => {
 
                 {/* navlink for lg to xl */}
                 <nav className='hidden lg:block'>
-                    <ul className="group/ul flex justify-between gap-6 text-lg">
+                    <ul className="group/ul flex justify-between gap-12 text-lg">
                         <NavLink text="Home" />
                         <NavLink text="About" href="#about" />
                         <NavLink text="Benefits" href="#benefits" />
                         <NavLink text="Testimonials" href="#testimonials" />
-                        <NavLink text="Daftar" href="#call-to-action" />
+                        <NavLink text="Daftar" href="#cta" />
                     </ul>
                 </nav>
             </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             <NavLink onClick={() => setIsOpen(false)} text="About" href="#about" />
                             <NavLink onClick={() => setIsOpen(false)} text="Benefits" href="#benefits" />
                             <NavLink onClick={() => setIsOpen(false)} text="Testimonials" href="#testimonials" />
-                            <NavLink onClick={() => setIsOpen(false)} text="Daftar" href="#call-to-action" />
+                            <NavLink onClick={() => setIsOpen(false)} text="Daftar" href="#cta" />
                         </ul>
                     </nav>
                 </div>)
