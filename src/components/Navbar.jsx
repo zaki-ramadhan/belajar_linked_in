@@ -20,7 +20,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <header className="container fixed top-0 max-w-7xl py-0 px-0 md:px-6 bg-white/90 backdrop-blur-xs z-60">
+        <header className="container fixed top-0 max-w-7xl py-0 px-0 md:px-6 bg-white z-60">
             {/* mobile navigation */}
             <div className="logo-menuBtn-wrapper px-4 py-5 border-b border-gray-200/80 flex items-center justify-between">
                 <a href="#">
