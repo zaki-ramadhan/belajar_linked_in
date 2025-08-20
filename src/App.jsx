@@ -11,15 +11,6 @@ import CallToAction from '@/sections/CallToAction';
 import Navbar from '@/components/Navbar';
 
 const App = () => {
-  useEffect(()=> {
-    AOS.init({
-      duration: 800,
-      easing: "ease-out",
-      offset: 120,
-      once: true,
-      mirror: false
-    });
-  })
   return (
     <>
       <Navbar />
